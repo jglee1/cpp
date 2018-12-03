@@ -14,5 +14,9 @@ int solve(int a, int b, int n) {
 	return fibo;
 }
 
-int fibo1 = solve(3,7,5);
-cout<<fibo1;
+int main()
+{
+  int fibo1 = solve(3,7,5);
+  cout<< fibo1 <<endl;
+}
+
